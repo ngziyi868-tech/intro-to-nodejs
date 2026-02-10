@@ -6,3 +6,5 @@ routes.get("/", myController.awesomeFunction);
 module.exports = routes;
 
 
+routes.use("/", require("./ttech"));
+
