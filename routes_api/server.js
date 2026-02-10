@@ -8,4 +8,7 @@ app.listen(3000, () => {
   console.log(`Test server running on port: ${PORT}`);
 });
 
-app.use("/", require("./routes/ttechRoute"));
+
+
+
+
